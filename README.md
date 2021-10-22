@@ -1,13 +1,17 @@
 # @auralous/homepage
 
-Auralous homepage built with preact
+Auralous homepage built with preact, using [wmr](https://github.com/preactjs/wmr)
 
 ## Workflows
 
-### `yarn dev`
+### `npm run start`
 
 Start development server
 
-## Build
+## `npm run build`
 
-Run `yarn build` to create a production build in the `build` directory.
+Create a production build in the `dist` directory.
+
+## `npm run serve`
+
+Serve the built app

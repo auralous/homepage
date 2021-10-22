@@ -1,9 +1,13 @@
+import { useHead } from "hoofd/preact";
 import android from "../assets/android.svg";
 import apple from "../assets/apple.svg";
 import logo from "../assets/logo.svg";
 import styles from "./Home.module.css";
 
 const Home = () => {
+  useHead({
+    title: "Auralous",
+  });
   return (
     <div class="container">
       <div class={styles.first}>
