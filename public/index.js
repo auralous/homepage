@@ -21,8 +21,7 @@ export function App() {
     metas: [
       {
         name: "description",
-        content:
-          "Listen Together with Friends around the Globe. All you need are your favorite songs and a YouTube, Spotify, or Apple Music account.",
+        content: "Play & listen to music in sync with friends.",
       },
     ],
   });
