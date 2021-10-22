@@ -9,6 +9,7 @@
 
 .links a {
   margin-left: 1rem;
+  padding: 4px;
 }
 .links a:first-child {
   margin-left: 0;
