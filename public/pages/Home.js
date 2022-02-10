@@ -65,7 +65,7 @@ const FeatCross = () => {
             <button
               onClick={() => setAppIdx(index)}
               key={featApp.name}
-              className={`${styles.musicApp} ${
+              class={`${styles.musicApp} ${
                 index === appIdx ? styles.active : ""
               }`}
             >
@@ -73,7 +73,7 @@ const FeatCross = () => {
             </button>
           ))}
         </div>
-        <div className={styles.mockPlayer}>
+        <div class={styles.mockPlayer}>
           <img
             src={featApps[appIdx].song.image}
             alt={featApps[appIdx].song.title}
@@ -81,18 +81,16 @@ const FeatCross = () => {
             width={96}
             height={96}
           />
-          <div className={styles.mpContainer}>
+          <div class={styles.mpContainer}>
             <a
               target="_blank"
               href={featApps[appIdx].song.href}
-              className={styles.mpTitle}
+              class={styles.mpTitle}
               rel="noreferrer"
             >
               {featApps[appIdx].song.title}
             </a>
-            <div className={styles.mpAritsts}>
-              {featApps[appIdx].song.artists}
-            </div>
+            <div class={styles.mpAritsts}>{featApps[appIdx].song.artists}</div>
           </div>
         </div>
       </div>
@@ -114,7 +112,7 @@ const FeatSocial = () => {
         loading="lazy"
         width={681}
         height={383}
-        className={styles.imgFeatSocial}
+        class={styles.imgFeatSocial}
         src={twoSideIllu}
         alt="Chat, Collaborate, Cheer!"
       />
@@ -141,7 +139,7 @@ const Hero = () => {
           <a
             onClick={() => alert("Coming soon")}
             href="#"
-            className={styles.btnNative}
+            class={styles.btnNative}
           >
             <img
               class={styles.nativeBadge}
@@ -152,7 +150,7 @@ const Hero = () => {
           <a
             onClick={() => alert("Coming soon")}
             href="#"
-            className={styles.btnNative}
+            class={styles.btnNative}
           >
             <img
               class={styles.nativeBadge}
