@@ -7,8 +7,8 @@ const Footer = () => {
       <div class={styles.links}>
         <a href={constants.facebook.href}>Facebook</a>
         <a href={constants.twitter.href}>Twitter</a>
-        <a href="/privacy">Privacy</a>
         <a href={constants.github.href}>GitHub</a>
+        <a href="/privacy">Privacy</a>
       </div>
     </footer>
   );

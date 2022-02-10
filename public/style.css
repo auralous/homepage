@@ -2,7 +2,9 @@
   --primary: #ff2e54;
   --primary-dark: #d12948;
   --text: #e0ebff;
-  --background: #0c0c0c;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --background: #111422;
+  --background-secondary: #1c1f31;
 }
 
 html {
@@ -36,7 +38,7 @@ main {
 
 .container {
   width: 100%;
-  padding: 0 8px;
+  padding: 0 16px;
   margin: 0 auto;
 }
 
