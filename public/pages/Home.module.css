@@ -71,14 +71,14 @@
   width: 100%;
   max-width: 240px;
   text-align: center;
-  background-color: var(--primary);
+  background-color: var(--primary-dark);
   color: var(--text);
   margin-bottom: 1.5rem;
 }
 
 .btnLaunch:hover,
 .btnLaunch:focus {
-  background-color: var(--primary-dark);
+  background-color: var(--primary);
 }
 
 .nativeBadge {

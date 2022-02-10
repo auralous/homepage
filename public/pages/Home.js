@@ -77,6 +77,9 @@ const FeatCross = () => {
           <img
             src={featApps[appIdx].song.image}
             alt={featApps[appIdx].song.title}
+            loading="lazy"
+            width={96}
+            height={96}
           />
           <div className={styles.mpContainer}>
             <a
@@ -140,14 +143,22 @@ const Hero = () => {
             href="#"
             className={styles.btnNative}
           >
-            <img class={styles.nativeBadge} src={appStoreBadge} />
+            <img
+              class={styles.nativeBadge}
+              src={appStoreBadge}
+              alt="Download on the App Store"
+            />
           </a>
           <a
             onClick={() => alert("Coming soon")}
             href="#"
             className={styles.btnNative}
           >
-            <img class={styles.nativeBadge} src={googleplayBadge} />
+            <img
+              class={styles.nativeBadge}
+              src={googleplayBadge}
+              alt="Get it on Google Play"
+            />
           </a>
         </div>
       </div>
@@ -157,7 +168,7 @@ const Hero = () => {
 
 const Home = () => {
   useHead({
-    title: "Auralous",
+    title: "Auralous: Music Together",
   });
   return (
     <div class="container">

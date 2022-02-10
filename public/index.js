@@ -10,9 +10,9 @@ import {
 } from "preact-iso";
 import Footer from "./components/Footer.js";
 import Home from "./pages/Home.js";
-import NotFound from "./pages/NotFound.js";
 
 const Privacy = lazy(() => import("./pages/Privacy.js"));
+const NotFound = lazy(() => import("./pages/NotFound"));
 
 export function App() {
   useHead({
