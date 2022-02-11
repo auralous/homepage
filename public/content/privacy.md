@@ -4,8 +4,7 @@
 
 Auralous is a privacy-friendly application. No 🙈 monkey business!
 
-- 🤝 We never share your information (We don’t even have much anyway)
-- 💯 We use [privacy-friendly analytics](https://usefathom.com/).
+- 🤝 We never share your information (We don’t even have much anyway)(https://usefathom.com/).
 - 🍪 We have **zero** cookies that track you.
 - 👻 You can easily delete **all** of your data at any time.
 
