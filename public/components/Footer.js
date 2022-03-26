@@ -8,6 +8,7 @@ const Footer = () => {
         <a href={constants.facebook.href}>Facebook</a>
         <a href={constants.twitter.href}>Twitter</a>
         <a href={constants.github.href}>GitHub</a>
+        <a href="/contact">Contact</a>
         <a href="/privacy">Privacy</a>
       </div>
     </footer>

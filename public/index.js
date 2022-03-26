@@ -10,9 +10,10 @@ import {
 } from "preact-iso";
 import Footer from "./components/Footer.js";
 import Home from "./pages/Home.js";
+import NotFound from "./pages/NotFound.js";
 
 const Privacy = lazy(() => import("./pages/Privacy.js"));
-const NotFound = lazy(() => import("./pages/NotFound"));
+const Contact = lazy(() => import("./pages/Contact.js"));
 
 export function App() {
   useHead({
@@ -32,6 +33,7 @@ export function App() {
           <Router>
             <Route path="/" component={Home} />
             <Route path="/privacy" component={Privacy} />
+            <Route path="/contact" component={Contact} />
             <Route default component={NotFound} />
           </Router>
         </ErrorBoundary>

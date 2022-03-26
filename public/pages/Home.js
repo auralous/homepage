@@ -7,7 +7,7 @@ import googleplayBadge from "../assets/Google_Play_Store_badge.svg";
 import logo from "../assets/logo.svg";
 import appSpotify from "../assets/Spotify_logo_with_text.svg";
 import appYoutube from "../assets/YouTube_Logo_2017.svg";
-import styles from "./Home.module.css";
+import styles, { section as sectionStyle } from "./Home.module.css";
 
 const featApps = [
   {
@@ -35,7 +35,7 @@ const featApps = [
     logo: appApplemusic,
     song: {
       title: "Counting Stars",
-      artists: "OneRepublic",
+      artists: "OneRepublic — Native",
       href: "https://music.apple.com/album/counting-stars/1440862673?i=1440862803",
       image:
         "https://is5-ssl.mzstatic.com/image/thumb/Music126/v4/ff/ac/01/ffac01e0-afb1-b8b0-57de-0d1ca7d2d02b/source/512x512bb.jpg",
@@ -53,7 +53,7 @@ const FeatCross = () => {
   }, [appIdx]);
 
   return (
-    <section class={styles.section}>
+    <section class={sectionStyle}>
       <h2 class={styles.title}>Listen across boundaries</h2>
       <p class={styles.description}>
         Your friend listens to a different music application? No worry, Auralous
