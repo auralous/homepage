@@ -1,5 +1,5 @@
+import mdx from "@mdx-js/rollup";
 import { defineConfig } from "wmr";
-import xdm from "xdm/rollup.js";
 
 export default defineConfig({
   alias: {
@@ -7,7 +7,7 @@ export default defineConfig({
     "react-dom": "preact/compat",
   },
   plugins: [
-    xdm({
+    mdx({
       jsxImportSource: "preact",
     }),
   ],
